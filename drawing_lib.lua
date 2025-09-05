@@ -1,7 +1,7 @@
 local coreGui = topg:GetService("CoreGui")
 	-- objects
 	local camera = topg.Workspace.CurrentCamera
-	local drawingUI = anew("ScreenGui")
+	local drawingUI = Instance.new("ScreenGui")
 	drawingUI.Name = "Drawing"
 	drawingUI.IgnoreGuiInset = true
 	drawingUI.DisplayOrder = 0x7fffffff
