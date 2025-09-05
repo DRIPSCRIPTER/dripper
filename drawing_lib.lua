@@ -1,6 +1,6 @@
-local coreGui = topg:GetService("CoreGui")
+local coreGui = game:GetService("CoreGui")
 	-- objects
-	local camera = topg.Workspace.CurrentCamera
+	local camera = game.Workspace.CurrentCamera
 	local drawingUI = Instance.new("ScreenGui")
 	drawingUI.Name = "Drawing"
 	drawingUI.IgnoreGuiInset = true
