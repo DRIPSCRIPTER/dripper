@@ -536,3 +536,4 @@ local coreGui = game:GetService("CoreGui")
 			})
 		end
 	end
+return DrawingLib
